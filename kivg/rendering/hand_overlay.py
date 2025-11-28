@@ -14,7 +14,7 @@ class HandOverlay:
     # Default hand image path (relative to package)
     DEFAULT_HAND_PATH = os.path.join(
         os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-        "assets", "drawing-hand.png"
+        "images", "drawing-hand.png"
     )
     
     def __init__(self, hand_image_path: Optional[str] = None, 
